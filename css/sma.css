@@ -267,7 +267,7 @@ main > a:hover {
 
 /***예약시간***/
 #input {
-	padding-left: 70px;
+	text-align: center;
 	font-size: 1.7rem;
 }
 #input select {
@@ -281,21 +281,30 @@ main > a:hover {
 	font-size: 1.2rem;
 }
 #reservation {
+	border: 1px solid white;
+	width: 120px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	font-size: 1.3rem;
+}
+#check {
 	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	padding-left: 20px;
 }
-#reservation a {
+#check a {
 	margin-right: 30px;
 }
-#reservation hr {
+#check hr {
 	width: 1px;
 	height: 20px;
 	margin-right: 30px;
 }
-	
+
 
 /*하단*/
 footer {
