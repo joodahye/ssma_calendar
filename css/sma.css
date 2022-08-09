@@ -280,6 +280,10 @@ main > a:hover {
 	border: 1px solid white;
 	font-size: 1.2rem;
 }
+#input option {
+	background: black;
+	color: white;
+}
 #reservation {
 	border: 1px solid white;
 	width: 120px;
